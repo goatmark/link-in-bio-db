@@ -2,7 +2,7 @@
 
 <h1>Howdy!</h1>
 
-<% Item.all.each do |the_item| %>
+<% @list_of_items.each do |the_item| %>
   <div>
     <img src = "<%= the_item.thumbnail_url %>">
 
